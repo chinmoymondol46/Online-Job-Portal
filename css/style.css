@@ -1,0 +1,57 @@
+/* html body universal font size and color*/
+body{
+  font-size: 16px;
+  background: #eee;
+  color:#666;
+}
+/* height and width of form container. vh = viewport height*/
+.login-container{
+  height: 100vh;
+  width: 100%;
+}
+/* height, width and padding of the form*/
+.login-form{
+  margin: auto;
+  width: 370px;
+  padding: 15px;
+  max-width: 100%;
+}
+
+/* height width and size of the fonts inside form*/
+.login-form .form-control{
+  font-size: 15px;
+  min-height: 48px;
+  font-weight: 500;
+}
+/* color of <a> tag elements*/
+ a{
+  text-decoration: none;
+  color:#666;
+}
+/* color of <a> tag elements when hovered with mouse*/
+ a:hover{
+  color:#2bb861;
+}
+/* color of the form components when hovered/focused*/
+.form-control:focus{
+  border-color:#723dbe;
+  box-shadow: 0 0 0 0.2rem rgba(26, 175, 83, 0.25);
+}
+/* color, size of the button*/
+.btn-custom{
+  background: #24b153;
+  border-color:#24b153;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 600;
+  min-height: 48px;
+}
+/* color of the button when hovered/focused*/
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+  background: #048b41;
+  border-color: #048b41;
+  color:#fff;
+}
